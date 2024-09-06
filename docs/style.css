@@ -1,0 +1,153 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+body{ 
+	width:100%;
+	background-color:#f7f7f7;
+	color : #000000;
+	text-align : center;
+	margin-right: auto;//コンテンツにだけ中央寄せを指定
+	margin-left : auto;
+	font-size:62.5%;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+#topimg{
+	width:800px;
+	height:130px;
+	margin:0 auto;
+	font-size:1.6em;
+	border-radius: 15px;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #FC4A1A;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.trim-image-to-circle {
+	background-image: url("index.png");  /* 表示する画像 */
+	margin: 0 auto;
+    width:  120px;       /* ※縦横を同値に */
+    height: 120px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: center bottom;
+    border: 3px solid #FC4A1A;
+}
+
+
+#header{
+	width:800px;
+	height:160px;
+	margin:15px auto;
+	font-size:1.5em;
+	text-align : center;
+	border-radius: 15px;
+}
+
+#contents{
+	width:800px;
+	min-height:1500px;
+	color : #000000;
+	margin:0 auto;
+	padding:20px 20px;
+	background-color :#ffffff;
+	text-align : top;
+	font-size: 1.2em;
+	line-height: 1.8em;
+	border-radius: 15px;
+}
+
+hr.style3 {
+	border-top: 1px dashed #8c8b8b;
+}
+
+.sampletable{
+	width: 100%;
+	table-layout: fixed;
+	border-collapse:separate;
+	border-spacing:12px;
+	border:1px;
+}
+
+td.image{
+	width: 250;
+	height: 140;
+	vertical-align: middle;
+}
+
+th.title{
+	width: 250;
+	height: 40px;
+	line-height:1.2em;
+	background-color :#fce3ae;
+	border-left: solid 8px #F7B733;
+}
+
+td.info{
+	width: 250;
+}
+
+td.button{
+	text-align : right;
+}
+
+td.summary{
+	width: 250;
+	text-align: left;
+	vertical-align: top;
+}
+
+td.comment{
+	width: 250;
+	text-align: center;
+	vertical-align: top;
+	font-style: italic;
+	color: #FC4A1A;
+}
+
+hr.style11 {
+	border-top: 1px dotted #bbb;
+}
+
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #F7B733;
+  border: solid 2px #F7B733;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #F7B733;
+  color: white;
+}
